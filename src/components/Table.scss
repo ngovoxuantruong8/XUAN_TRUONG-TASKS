@@ -1,0 +1,38 @@
+.table__container {
+    margin: 50px auto;
+    width: 50%;
+    border-collapse: collapse;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table__head {
+    color: white;
+    background-color: #009879;
+    text-align: left;
+
+    th {
+        padding: 12px 15px;
+    }
+}
+
+.table__body {
+    tr {
+        border-bottom: 1px solid #ddd;
+    }
+
+    tr:last-child {
+        border-bottom: 3px solid teal;
+    }
+
+    tr:nth-child(even) {
+        color: #009879;
+        font-weight: bold;
+        background-color: #eee;
+    }
+
+    td {
+        padding: 12px 15px;
+    }
+}
